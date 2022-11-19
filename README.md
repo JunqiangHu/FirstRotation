@@ -1,8 +1,8 @@
 # FirstRotation 
 **Content**
-- [Intelectual Preparation](#intelectual-preparation)
+- [Intellectual Preparation](#intelectual-preparation)
 - [Codes and Results](#codes-and-main-results)
 - [Discussion](#discussion)
 - [References](#references)
 
-## Intelectual Preparation
+## Intellectual Preparation
