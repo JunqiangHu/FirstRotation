@@ -6,7 +6,7 @@
 - [References](#references)
 
 ## Intellectual Preparation
-
+  We want to use Reinforcement Learning to give some hints in the cognition. I read the important papers of DeepMind about Deep Q Network and some updated versions of AlphaGo.     
 
 
 
