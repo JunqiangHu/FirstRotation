@@ -18,7 +18,7 @@
 &ensp;&ensp;The training results are shown below. I focused on Pong, Breakout and SpaceInvaders three games. Pong and Breakout are two similar games which need a ball to hit on the bricks.  
 ### Pong
 &ensp;&ensp;The trainnig result is fairly good in this parameters. To confirm the ability of the model to predict the state, I also hooked out the last hidden layer and designated the highest action value as the state value, and then showed the plot of different states and its state values.  
-!(https://github.com/wublubd/FirstRotation/blob/main/Figures/pong/training_result.png?raw=true)
+!(https://github.com/wublubd/FirstRotation/blob/main/Figures/pong/training_result.png?raw=true)  
 !(https://github.com/wublubd/FirstRotation/blob/main/Figures/pong/state_profile_pong.png?raw=true)
 &ensp;&ensp;The actual state could show a trajectory, which may represents the pseudotime state changes after taking actions. I checked for the exact state change and we could tell the model can play the game well to get definate success. Also, the high state value implies a score within 30 frames while the low state value not.  
 
