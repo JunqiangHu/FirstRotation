@@ -7,7 +7,7 @@
 
 <a id='preparation'></a>
 ## Intellectual Preparation
-  We want to use Reinforcement Learning to give some hints in the cognition. I read the important papers of DeepMind about Deep Q Network and some updated versions of AlphaGo[<sup>1-4</sup>](#references1-4).     
+  We want to use Reinforcement Learning to give some hints in the cognition. I read the important papers of DeepMind about Deep Q Network and some updated versions of AlphaGo[<sup>1-4</sup>](#references1-4). What we want to do firstly is to reproduce the DQN result in Atari games.   
 
 
 
