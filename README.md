@@ -44,7 +44,8 @@
 
 <a id='discussion'></a>
 ## Discussion
-&ensp;&ensp;The former result shows the capability of RL. However, the high dependency is still a problem for generalize the current result. I have tried to dissect neurons in the network just as [Ref.7](#references7), but beacuse the total different task between classification and figure generation, I couldn't write proper codes and the dissection failed.  
+&ensp;&ensp;The former result shows the capability of RL. However, the high dependency is still a problem for generalize the current result, and the transfer learnning idea is restrained.  
+&ensp;&ensp;I have also tried to dissect neurons in the network just as [Ref.7](#references7), but beacuse the total different task between classification and figure generation, I couldn't write proper codes and the dissection failed.  
 
 <a id='references'></a>
 ## References
