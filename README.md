@@ -13,10 +13,13 @@
 <a id='results'></a>
 ## Codes and Results
 &ensp;&ensp;All codes are in python and the Deep learning package we use is pytorch. The basic framework is from updated codes in [zhihu](https://zhuanlan.zhihu.com/p/124593949). Most parameters are same as the [Ref.1](#references1-4), except the training frames. For simplicity, all the codes and related figures are zipped in model_training.rar and model_validation.rar. The figures in this report are copied to the file folder Figure.  
-&ensp;&ensp;The basic structure of value prediction part in DQN is shown below and is simple. After three convolution layers to extract information, the output is then used for prediction after two layers of fully-connection.  
+&ensp;&ensp;The basic structure of value prediction part in DQN is shown below and is simple. After three convolution layers to extract information, the output is then used for prediction after two layers of fully-connection. 
+!(https://github.com/wublubd/FirstRotation/blob/main/Figures/model_structure.png?raw=true)
 &ensp;&ensp;The training results are shown below. I focused on Pong, Breakout and SpaceInvaders three games. Pong and Breakout are two similar games which need a ball to hit on the bricks.  
 ### Pong
 &ensp;&ensp;The trainnig result is fairly good in this parameters. To confirm the ability of the model to predict the state, I also hooked out the last hidden layer and designated the highest action value as the state value, and then showed the plot of different states and its state values.  
+!(https://github.com/wublubd/FirstRotation/blob/main/Figures/pong/training_result.png?raw=true)
+!(https://github.com/wublubd/FirstRotation/blob/main/Figures/pong/state_profile_pong.png?raw=true)
 &ensp;&ensp;The actual state could show a trajectory, which may represents the pseudotime state changes after taking actions. I checked for the exact state change and we could tell the model can play the game well to get definate success. Also, the high state value implies a score within 30 frames while the low state value not.  
 
 
