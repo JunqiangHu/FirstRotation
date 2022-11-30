@@ -32,8 +32,8 @@
 <div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/state_profile_breakout.png?raw=true"/></div>  
 <div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/breakout_high_value.gif?raw=true"/></div>  
 <div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/breakout_low_value.gif?raw=true"/></div>  
-&ensp;&ensp;The middle figure describes the following 30 frames after the red dot circled state with high value, while the below figure describes the following 30 frames after the grey dot circled state with low value. The high value indiactes a hit on the brick while the low value directly describe a missing case.  
-&ensp;&ensp;Since the similarity between Pong and Breakout, could we use the training model of Pong to transfer learnning the Breakout game? The feature extraction step in the convolutional layer may be similar and it could achieve a few-shot learning for this similar game. 
+&ensp;&ensp;The middle figure describes the following 30 frames after the red dot circled state with high value, while the below figure describes the following 30 frames after the grey dot circled state with low value. The high value indicates a hit on the brick while the low value directly describe a missing case.  
+&ensp;&ensp;Since the similarity between Pong and Breakout, could we use the training model of Pong to transfer learning the Breakout game? The feature extraction step in the convolutional layer may be similar and it could achieve a few-shot learning for this similar game. 
 <div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout_transfer/training_result.jpg?raw=true"/></div>  
 &ensp;&ensp;The result partly match our hypothesis. The reward in each step increase early than that without transfer-learning, and the loss seems more stable although there still has been some collapses, but they are rare.   
 
