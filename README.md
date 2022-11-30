@@ -27,14 +27,20 @@
 
 ### Breakout
 &ensp;&ensp;The trainnig result is not so good as that in Pong in this parameters. The most severe problem of RL is the high dependency of the environment and hyper parameters.  
-
-
-
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/training_result.jpg?raw=true"/></div>
+&ensp;&ensp;The model can play the game since the loss is converged and the reward is some high, but indeed the model couldn't clear all the bricks. The state profile is more messy but it still could indicate the value of state.  
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/state_profile_breakout.png?raw=true"/></div>  
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/breakout_high_value.gif?raw=true"/></div>  
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout/breakout_low_value.gif?raw=true"/></div>  
+&ensp;&ensp;The middle figure describes the following 30 frames after the red dot circled state with high value, while the below figure describes the following 30 frames after the grey dot circled state with low value. The high value indiactes a hit on the brick while the low value directly describe a missing case.  
+&ensp;&ensp;Since the similarity between Pong and Breakout, could we use the training model of Pong to transfer learnning the Breakout game? The feature extraction step in the convolutional layer may be similar and it could achieve a few-shot learning for this similar game. 
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/breakout_transfer/training_result.jpg?raw=true"/></div>  
+&ensp;&ensp;The result partly match our hypothesis. The reward in each step increase early than that without transfer-learning, and the loss seems more stable although there still has been some collapses, but they are rare.   
 
 ### SpaceInvaders
-
-
-
+&ensp;&ensp;The trainnig result is worse in this parameters. We also try to transfer the Pong model into this game, but result is also bad. Maybe the differences between Pong and SpaceInvaders are so many that the best parameters and weights differ a lot.  
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/spaceinvaders/training_result.jpg?raw=true"/></div>  
+<div align="center"><img src="https://github.com/wublubd/FirstRotation/blob/main/Figures/spaceinvaders_transfer/training_result.jpg?raw=true"/></div>  
 
 <a id='discussion'></a>
 ## Discussion
